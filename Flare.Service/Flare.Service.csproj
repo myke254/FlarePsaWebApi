@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Flare.Data\Flare.Data.csproj" />
+    <ProjectReference Include="..\Flare.Repo\Flare.Repo.csproj" />
+  </ItemGroup>
+
+</Project>
